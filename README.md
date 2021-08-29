@@ -25,7 +25,9 @@ Ja do stworzenia robota wykorzystałem płytkę NodeMcu v3, bo akurat nie miałe
 
 **Schemat połączeń:**
 
-Zaczynamy od podpięcia naszego kontraktronu, lub innego wyzwalacza. Jedną końcówkę wpinamy w port D8 (GPIO15), a drugą w port 3V, lub 5V, w zależności od logiki płytki z której korzystasz. Następnie podłączymy nasz moduł odtwarzający. Jego schemat jest dostępny w internecie. Porty RX i TX, z uwagi na ograniczone możliwości NodeMcu, wpinamy w porty - odpowiednio D2 i D1. Podłączamy zasilanie i uziemienie. Co do podłączenia głośnika - jeżeli używamy głośnika aktywnego (z wbudowanym zasilaniem, akumulatorem), będziemy korzystać z portów DAC_L i DAC_R naszego modułu odtwarzającego. Jeżeli jednak korzystamy z głośnika pasywnego do 3W, używamy portów SPK_1 i SPK_2. Podłączamy głośnik i zasilanie płytki i jesteśmy gotowi do działania ;)
+Zaczynamy od podpięcia naszego kontraktronu, lub innego wyzwalacza. Jedną końcówkę wpinamy w port D8 (GPIO15), a drugą w port 3V, lub 5V, w zależności od logiki płytki z której korzystasz. Następnie podłączymy nasz moduł odtwarzający. Jego schemat jest dostępny w internecie. Porty RX i TX, z uwagi na ograniczone możliwości NodeMcu, wpinamy w porty - odpowiednio D2 i D1. Podłączamy zasilanie i uziemienie. Co do podłączenia głośnika - jeżeli używamy głośnika aktywnego (z wbudowanym zasilaniem, akumulatorem), będziemy korzystać z portów DAC_L i DAC_R naszego modułu odtwarzającego. Jeżeli jednak korzystamy z głośnika pasywnego do 3W, używamy portów SPK_1 i SPK_2. Na kartę pamięci wgrywamy nasz odgłos, najlepiej w formacie MP3 i nazywamy plik 0001.mp3 . Kartę wsuwamy, podłączamy głośnik i zasilanie płytki i jesteśmy gotowi do działania ;)
+
+
 
 **Kod:**
 
