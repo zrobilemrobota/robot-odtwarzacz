@@ -4,7 +4,7 @@
 const int buttonPin = 15;     // the number of button / contact sensor pin
 const int ledPin =  2;       // the number of the LED pin on your board
 
-
+// variables
 int buttonState = 0; // variable for storing the pushbutton status
 boolean soundplayed = false; // variable for storing if the sound was played
 
